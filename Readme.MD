@@ -43,16 +43,6 @@ I build high-scale AI systems and distributed infrastructure. Ranked **Top 10 na
 
 ---
 
-## Open Source · ESoC 2026
-
-**Organisation: [AI-on-Demand](https://github.com/aiondemand/aiondemand)** — EU Horizon Europe-funded AI metadata catalogue (Grant No. 101070000)
-
-- **PR #172 (merged)** — Fixed silent token lifecycle bug: `timedelta.seconds` truncates at 86,399s for tokens valid >24h; replaced with `total_seconds()`. Zero-downtime fix with regression test.
-- **PR (merged)** — Added `HTTPStatus.OK` guards to `search()` and `asset_counts()`, preventing silent error-payload parsing on server failures.
-- **PR (in review)** — Implemented `search_async`: concurrent multi-query search across 9 asset modules using `aiohttp`, with result deduplication by `identifier`. Extends the existing async pattern (`get_list_async`, `get_assets_async`) to the search endpoint.
-
----
-
 ## Credentials
 
 | Achievement | Detail |
@@ -63,7 +53,7 @@ I build high-scale AI systems and distributed infrastructure. Ranked **Top 10 na
 | **TCS CodeVita '25** | Global Rank 5942 out of 300,000+ participants |
 | **Other Finalists** | Electrothon '24 · H@CIT Codethon '24 (2×) · JPMC Code for Good Semi-Finalist |
 | **Academic** | CGPA 8.88/10 · Student Lead, Centre for AI @ CIT |
-| Led a team of 10 engineers to build a low-latency, cloud-native RBAC dashboard automating course-change request workflows for 225+ faculty |
+| **Built a Curriculum Management System** | Led a team of 10 engineers to build a low-latency, cloud-native RBAC dashboard automating course-change request workflows for 225+ faculty |
 
 ---
 
@@ -90,17 +80,17 @@ I build high-scale AI systems and distributed infrastructure. Ranked **Top 10 na
 
 ---
 
-## Currently Building
+## Currently Exploring
 
 - **EON** — Jarvis-inspired personal AI assistant (**Ollama** + local LLM + persistent memory + tool orchestration)
 - Shipping `search_async` to AI-on-Demand — concurrent multi-query search for EU AI metadata pipelines
-- Exploring probabilistic time-series forecasting for **pytorch-forecasting** (ESoC 2026 second target)
+- ## Open Source · ESoC 2026 **Organisation: [AI-on-Demand](https://github.com/aiondemand/aiondemand)** — EU Horizon Europe-funded AI metadata catalogue
 
 ---
 
 ## Beyond the Code
 
-- Anime — if the power system is well-written, I'm watching it
+- Anime — if the power system is well-written and the Story is a Banger, I'm watching it.
 - Dancing — engineers need rhythm too
 - Cricket — opening batter energy, always
 
